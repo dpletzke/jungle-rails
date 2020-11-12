@@ -29,7 +29,6 @@ class ApplicationController < ActionController::Base
     cookies[:cart]
   end
 
-  # TODO:  check if this is needed, due to double auth methods
   def authenticate
     authenticate_or_request_with_http_basic do |username, password|
       username == ENV['HTTP_AUTH_USER'] && password == ENV['HTTP_AUTH_PASS']
@@ -42,7 +41,6 @@ class ApplicationController < ActionController::Base
   end
   helper_method :current_user
 
-  # why isn't this a helper method?
   def authorize
     redirect_to session_new_path unless current_user
   end
