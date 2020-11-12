@@ -18,6 +18,8 @@ Rails.application.routes.draw do
     resources :categories, except: [:edit, :update, :delete, :show]
   end
 
+  resources :users, only: [:new, :create]
+
   resources :about, only: [:index]
 
   # The priority is based upon order of creation: first created -> highest priority.
