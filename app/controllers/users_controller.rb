@@ -9,14 +9,14 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to :root
     else
-      redirect_to users_new_path
+      redirect_to new_user_path
     end
   end
 
   private
 
   def user_params
-    params.require(:user).permit(:name, :email, :password_digest)
+    params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
 
 
