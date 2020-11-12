@@ -30,8 +30,8 @@ class ApplicationController < ActionController::Base
   end
 
   def authenticate
-    authenticate_or_request_with_http_basic('Administration') do |username, password|
-      username == 'admin' && password == 'password'
+    authenticate_or_request_with_http_basic do |username, password|
+      username == ENV['HTTP_AUTH_USER'] && password == ENV['HTTP_AUTH_PASS']
     end
   end
   helper_method :authenticate
