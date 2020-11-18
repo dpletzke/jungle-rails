@@ -1,6 +1,11 @@
 # Jungle
 
+## Features
+
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+
+Users can view selection of products, add them to their cart and pay through Stripe. Users can register and login.
+Admins can add and edit products, and categories. Admins are verified with an HTTPS login and set credentials.
 
 ## Testing
 
@@ -11,9 +16,9 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 <br>
 <p align='center'>
-  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/home_page.png?raw=true" height="350">
-  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/product_page.png?raw=true" height="350">
-  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/admin_products_page.png?raw=true" height="350">
+  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/images/home_page.png?raw=true" height="300">
+  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/images/product_page.png?raw=true" height="300">
+  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/images/admin_products_page.png?raw=true" height="300">
   <p align='center'>Home, Product and Admin-Product Page
   </p>
 </p>
