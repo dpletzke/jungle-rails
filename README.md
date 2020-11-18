@@ -7,6 +7,17 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 * rspec - unit testing
 * capybara - feature/E2E testing
 
+## Final Product
+
+<br>
+<p align='center'>
+  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/home_page.png?raw=true" height="350">
+  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/product_page.png?raw=true" height="350">
+  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/admin_products_page.png?raw=true" height="350">
+  <p align='center'>Home, Product and Admin-Product Page
+  </p>
+</p>
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
