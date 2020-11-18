@@ -16,9 +16,9 @@ Admins can add and edit products, and categories. Admins are verified with an HT
 
 <br>
 <p align='center'>
-  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/images/home_page.png?raw=true" height="300">
-  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/images/product_page.png?raw=true" height="300">
-  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/images/admin_products_page.png?raw=true" height="300">
+  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/images/home_page.png?raw=true" height="350">
+  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/images/product_page.png?raw=true" height="350">
+  <img src="https://github.com/dpletzke/jungle-rails/blob/master/docs/images/admin_products_page.png?raw=true" height="350">
   <p align='center'>Home, Product and Admin-Product Page
   </p>
 </p>
