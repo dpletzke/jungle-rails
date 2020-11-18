@@ -42,9 +42,12 @@ gem 'faker'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'rspec-rails', '~> 3.5'
+  gem 'shoulda-matchers', '4.0.0.rc1'
   gem 'byebug'
   gem 'quiet_assets'
   gem 'dotenv-rails'
+  gem 'parallel', '1.19.2', require: false
+  gem 'rubocop', '0.81.0', require: false
 end
 
 group :development do
