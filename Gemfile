@@ -48,6 +48,9 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'parallel', '1.19.2', require: false
   gem 'rubocop', '0.81.0', require: false
+  gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
 end
 
 group :development do
