@@ -1,3 +1,4 @@
+require 'pp'
 class User < ActiveRecord::Base
 
   has_secure_password
@@ -8,9 +9,14 @@ class User < ActiveRecord::Base
   validates :password_confirmation, presence: true
   validates :password_digest, presence: true
 
-  def authenticate_with_credentials (email, password)
-    user = User.find_by_email(:email)
-    pp user.password
+  def self.authenticate_with_credentials(email, password)
+    user = User.find_by_email(email.strip)
+
+    if user.authenticate(password)
+      user
+    else
+      nil
+    end
   end
 
 end
